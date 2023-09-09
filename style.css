@@ -9,7 +9,7 @@ body {
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
-  position: relative;
+  position: absolute;
   left: 200px;
 }
 
@@ -37,3 +37,20 @@ button {
 }
 
 /* sem přijdou tvoje styly */
+.pomoc {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border: 5px solid #b4eafb;
+  background-color: #5bcef3;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
