@@ -54,3 +54,12 @@ button {
   align-items: center;
   justify-content: center;
 }
+
+.sticky {
+  background-color: #5bcef3;
+  color: white;
+  padding: 20px;
+  position: sticky;
+  left: 0;
+  top: 20px;
+}
